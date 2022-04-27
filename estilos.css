@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.ContainerMenu .card {
-    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
-}
-
-.ContainerMenu .card .card-text {
-    min-height: 96px;
-}
 
 * {
     margin: 0;
@@ -392,6 +385,14 @@ footer .src {
     justify-content: space-evenly;
     gap:  30px;
     margin: auto;
+}
+
+.ContainerMenu .card {
+    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
+}
+
+.ContainerMenu .card .card-text {
+    min-height: 96px;
 }
 
 
