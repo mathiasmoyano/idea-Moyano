@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.ContainerBurgers .card .card-text{
+.ContainerBurgers .card {
+    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
+}
+
+.ContainerBurgers .card .card-text {
     min-height: 96px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +16,6 @@
 
 body {
     overflow-x: hidden;
-}
-
-.sombrita-linda{
-    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
 }
 
 /* Inicio de nav */
@@ -372,9 +373,10 @@ footer p span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
+
 }
 
-.ContainerFriedChicken{
+.ContainerFriedChicken {
     width: 100%;
     height: auto;
     display: flex;
@@ -384,7 +386,7 @@ footer p span {
     gap: 30px;
 }
 
-.ContainerEspeciales{
+.ContainerEspeciales {
     width: 100%;
     height: auto;
     display: flex;
@@ -395,208 +397,208 @@ footer p span {
 }
 
 
-    /* Fin de Menú */
+/* Fin de Menú */
 
-    @media only screen and (min-width: 319px) and (max-width: 560px) {
+@media only screen and (min-width: 319px) and (max-width: 560px) {
 
-        .container_img_promociones {
-            width: 100%;
-            height: 1250px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .container_img_promociones .card {
-            width: 250px;
-            height: auto;
-            align-items: center;
-            align-content: center;
-        }
-
-        .container-logo img {
-            width: 100px;
-            height: 100px;
-        }
-
-        header nav ul {
-            display: none;
-        }
-
-        header .container-logo p {
-            display: none
-        }
-
-        .PN {
-            margin-top: 15px;
-            font-size: 25px;
-            font-family: 'Bebas Neue', cursive;
-            text-align: center;
-            justify-content: center;
-        }
-
-        .PNC {
-            font-size: 12px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: center;
-            justify-content: center;
-        }
-
-        #hamburger-icon div {
-            width: 20px;
-            height: 2px;
-            background-color: white;
-            margin: 6px 0;
-            transition: 0.4s;
-        }
-
-        .container_img_promociones {
-            flex-direction: column;
-        }
-
-        .producto {
-            height: 100%;
-            width: 100%;
-        }
-
-        .producto img {
-            width: 100%;
-        }
-
-        footer {
-            height: 180px;
-            width: 100%;
-            background-image: url(img/Diseño\ sin\ título.jpg);
-            text-align: center;
-            padding-top: 10px;
-        }
-
-        footer i {
-            height: 35px;
-            width: 35px;
-        }
-
-        footer p {
-            font-size: 20px;
-            padding: 10px;
-            margin-top: 10px;
-        }
-
-        footer p span {
-            color: white;
-        }
+    .container_img_promociones {
+        width: 100%;
+        height: 1250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    @media only screen and (min-width: 559px) and (max-width: 1023px) {
-
-        header nav ul {
-            display: none;
-        }
-
-        .container_img_promociones {
-            flex-direction: column;
-        }
+    .container_img_promociones .card {
+        width: 250px;
+        height: auto;
+        align-items: center;
+        align-content: center;
     }
 
-    @media only screen and (min-width: 1023px) and (max-width: 1459px) {
-        #hamburger-icon {
-            display: none;
-        }
-
-        .p1 {
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
-
-        .p2 {
-            grid-column: 2/3;
-            grid-row: 1/2;
-        }
-
-        .p3 {
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
-
-        .p4 {
-            grid-column: 2/3;
-            grid-row: 2/3;
-        }
-
-        .p5 {
-            grid-column: 1/2;
-            grid-row: 3/4;
-        }
-
-        .p6 {
-            grid-column: 2/3;
-            grid-row: 3/4;
-        }
-
-        .p7 {
-            grid-column: 1/2;
-            grid-row: 4/5;
-        }
-
-        .p8 {
-            grid-column: 2/3;
-            grid-row: 4/5;
-        }
-
-        .p9 {
-            grid-column: 1/3;
-            grid-row: 5/7;
-        }
+    .container-logo img {
+        width: 100px;
+        height: 100px;
     }
 
-    @media only screen and (min-width: 1460px) {
-        #hamburger-icon {
-            display: none;
-        }
-
-        .p1 {
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
-
-        .p2 {
-            grid-column: 2/3;
-            grid-row: 1/2;
-        }
-
-        .p3 {
-            grid-column: 3/4;
-            grid-row: 1/2;
-        }
-
-        .p4 {
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
-
-        .p5 {
-            grid-column: 2/3;
-            grid-row: 2/3;
-        }
-
-        .p6 {
-            grid-column: 3/4;
-            grid-row: 2/3;
-        }
-
-        .p7 {
-            grid-column: 1/2;
-            grid-row: 3/4;
-        }
-
-        .p8 {
-            grid-column: 2/3;
-            grid-row: 3/4;
-        }
-
-        .p9 {
-            grid-column: 3/4;
-            grid-row: 3/4;
-        }
+    header nav ul {
+        display: none;
     }
+
+    header .container-logo p {
+        display: none
+    }
+
+    .PN {
+        margin-top: 15px;
+        font-size: 25px;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .PNC {
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #hamburger-icon div {
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .container_img_promociones {
+        flex-direction: column;
+    }
+
+    .producto {
+        height: 100%;
+        width: 100%;
+    }
+
+    .producto img {
+        width: 100%;
+    }
+
+    footer {
+        height: 180px;
+        width: 100%;
+        background-image: url(img/Diseño\ sin\ título.jpg);
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    footer i {
+        height: 35px;
+        width: 35px;
+    }
+
+    footer p {
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    footer p span {
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 559px) and (max-width: 1023px) {
+
+    header nav ul {
+        display: none;
+    }
+
+    .container_img_promociones {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1459px) {
+    #hamburger-icon {
+        display: none;
+    }
+
+    .p1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .p2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .p3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .p4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .p5 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .p6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .p7 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .p8 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    .p9 {
+        grid-column: 1/3;
+        grid-row: 5/7;
+    }
+}
+
+@media only screen and (min-width: 1460px) {
+    #hamburger-icon {
+        display: none;
+    }
+
+    .p1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .p2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .p3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .p4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .p5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .p6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .p7 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .p8 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .p9 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+}
