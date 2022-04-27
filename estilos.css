@@ -4,7 +4,23 @@
     box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
 }
 
+.ContainerFriedChicken .card {
+    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
+}
+
+.ContainerEspeciales .card {
+    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
+}
+
 .ContainerBurgers .card .card-text {
+    min-height: 96px;
+}
+
+.ContainerFriedChicken .card .card-text {
+    min-height: 96px;
+}
+
+.ContainerEspeciales .card .card-text {
     min-height: 96px;
 }
 
@@ -334,6 +350,10 @@ footer p span {
     color: white;
 }
 
+footer .src {
+    color:white;
+}
+
 /* Inicio de News */
 
 .PN {
@@ -368,32 +388,25 @@ footer p span {
 .ContainerBurgers {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 30px;
-
+    margin: auto;
 }
 
 .ContainerFriedChicken {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 30px;
+    margin: auto;
 }
 
 .ContainerEspeciales {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 30px;
+    margin: auto;
 }
 
 
