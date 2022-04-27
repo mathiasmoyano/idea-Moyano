@@ -1,26 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-.ContainerBurgers .card {
+.ContainerMenu .card {
     box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
 }
 
-.ContainerFriedChicken .card {
-    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
-}
-
-.ContainerEspeciales .card {
-    box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
-}
-
-.ContainerBurgers .card .card-text {
-    min-height: 96px;
-}
-
-.ContainerFriedChicken .card .card-text {
-    min-height: 96px;
-}
-
-.ContainerEspeciales .card .card-text {
+.ContainerMenu .card .card-text {
     min-height: 96px;
 }
 
@@ -388,7 +372,8 @@ footer .src {
 .ContainerBurgers {
     width: 100%;
     height: auto;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
     gap: 30px;
     margin: auto;
 }
@@ -396,7 +381,7 @@ footer .src {
 .ContainerFriedChicken {
     width: 100%;
     height: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 30px;
     margin: auto;
 }
@@ -404,8 +389,8 @@ footer .src {
 .ContainerEspeciales {
     width: 100%;
     height: auto;
-    justify-content: space-around;
-    gap: 30px;
+    justify-content: space-evenly;
+    gap:  30px;
     margin: auto;
 }
 
