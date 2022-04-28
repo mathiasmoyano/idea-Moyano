@@ -272,7 +272,6 @@ table-responsive td th {
     height: 575px;
     align-items: center;
     align-content: center;
-    background-image: url(img/Diseño\ sin\ título.jpg);
 }
 
 .container_img_promociones .card h5 {
@@ -385,6 +384,7 @@ footer .src {
     justify-content: space-evenly;
     gap:  30px;
     margin: auto;
+    padding-bottom: 50px;
 }
 
 .ContainerMenu .card {
@@ -395,8 +395,18 @@ footer .src {
     min-height: 96px;
 }
 
-
 /* Fin de Menú */
+/* Inicio About Us*/
+
+.Containernosotros{
+    padding: 50px;
+}
+
+.containerMaps{
+    padding: 50px;
+}
+
+/* Fin About As*/
 
 @media only screen and (min-width: 319px) and (max-width: 560px) {
 
