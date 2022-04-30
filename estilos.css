@@ -37,12 +37,6 @@ header .container-logo {
     align-items: center;
 }
 
-header .container-logo p {
-    font-size: 28px;
-    color: #FEF6FF;
-    font-family: 'Bebas Neue', cursive;
-}
-
 header nav {
     float: right;
     margin-right: 10px;
@@ -472,7 +466,7 @@ footer .src {
     }
 
     footer {
-        height: 180px;
+        height: auto;
         width: 100%;
         background-image: url(img/Diseño\ sin\ título.jpg);
         text-align: center;
