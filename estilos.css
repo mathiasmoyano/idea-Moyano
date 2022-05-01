@@ -297,7 +297,7 @@ form {
 }
 
 footer {
-    height: 230px;
+    height: 250px;
     width: 100%;
     background-image: url(img/Diseño\ sin\ título.jpg);
     color: #000;
@@ -466,7 +466,7 @@ footer .src {
     }
 
     footer {
-        height: auto;
+        height: 180px;
         width: 100%;
         background-image: url(img/Diseño\ sin\ título.jpg);
         text-align: center;
