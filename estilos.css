@@ -208,23 +208,6 @@ section {
     text-align: center;
 }
 
-.noticias p {
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    margin: 0px 20px 20px 20px;
-    color: #000;
-    text-align: center;
-    text-transform: lowercase;
-}
-
-.noticias h3 {
-    font-size: 25px;
-    font-family: 'Bebas Neue', cursive;
-    color: #000;
-    font-style: oblique;
-}
-
 /* Inicio tabla Noticias */
 
 .table {
@@ -233,7 +216,6 @@ section {
     width: 80%;
     height: 100px;
 }
-
 
 /* Fin tabla Noticias */
 
@@ -277,6 +259,22 @@ section .noticias {
     min-width: 60px;
     text-align: left;
 }
+.noticias p {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin: 0px 20px 20px 20px;
+    color: #000;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.noticias h3 {
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: #000;
+    font-style: oblique;
+}
 
 input[type=text],
 input[type=number],
@@ -296,6 +294,7 @@ form {
     justify-content: center;
 }
 
+/* Inicio Footer */
 footer {
     height: 250px;
     width: 100%;
@@ -317,8 +316,9 @@ footer p span {
 }
 
 footer .src {
-    color:white;
+    color: white;
 }
+/* Fin de  Footer */
 
 /* Inicio de News */
 
@@ -372,7 +372,7 @@ footer .src {
     width: 100%;
     height: auto;
     justify-content: space-evenly;
-    gap:  30px;
+    gap: 30px;
     margin: auto;
     padding-bottom: 50px;
 }
@@ -388,11 +388,11 @@ footer .src {
 /* Fin de Menú */
 /* Inicio About Us*/
 
-.Containernosotros{
+.Containernosotros {
     padding: 50px;
 }
 
-.containerMaps{
+.containerMaps {
     padding: 50px;
 }
 
@@ -463,6 +463,13 @@ footer .src {
 
     .producto img {
         width: 100%;
+    }
+
+    .table {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px auto 15px auto;
+        width: 50%;
+        height: 100px;
     }
 
     footer {
