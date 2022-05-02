@@ -358,8 +358,8 @@ footer .src {
     box-shadow: 0 4px 6px 0 rgb(85 85 85 / 9%), 0 1px 20px 0 rgb(0 0 0 / 8%), 0px 1px 11px 0px rgb(0 0 0 / 6%);
 }
 
-.ContainerMenu .card .card-text {
-    min-height: 96px;
+.ContainerMenu .card .card-body {
+    min-height: 230px;
 }
 
 /* Fin de Menú */
