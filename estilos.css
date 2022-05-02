@@ -359,26 +359,48 @@ footer .src {
 }
 
 .ContainerMenu .card .card-body {
-    min-height: 230px;
+    min-height: 200px;
 }
 
 /* Fin de Menú */
 /* Inicio About Us*/
 
-.Containernosotros {
+.Containercheff {
     width: 100%;
-    height: 600px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 300px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
 }
 
-.Containernosotros img {
+.Containercheff img {
+    border-radius: 30px;
     width: 450px;
     height: 300px;
     margin-right: 25px;
+}
+
+.Containercheff p{
+    margin: 10px 10px 10px 10px;
+}
+
+.Containerlocal {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.Containerlocal img {
+    border-radius: 30px;
+    width: 450px;
+    height: 450px;
+    margin-right: 25px;
+}
+
+.Containerlocal p{
+    margin: 10px 10px 10px 10px;
 }
 
 /* Fin About As*/
@@ -494,18 +516,40 @@ hr {
     }
 
     /*Inicio About*/
-    .Containernosotros {
+    .Containercheff {
         width: 100%;
         height: auto;
         display: flex;
-        margin: auto;
         flex-direction: column;
         justify-content: space-between;
     }
 
-    .Containernosotros img {
-        width: 390px;
+    .Containercheff img {
         margin: auto;
+        width: 350px;
+        height: 250px;
+    }
+
+    .Containercheff p{
+        margin: 10px 10px 10px 10px;
+    }
+
+    .Containerlocal {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Containerlocal img {
+        margin: auto;
+        width: 350px;
+        height: 300px;
+    }
+
+    .Containerlocal p{
+        margin: 10px 10px 10px 10px;
     }
 
     /*Fin de About*/
