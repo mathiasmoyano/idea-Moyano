@@ -422,7 +422,7 @@ footer .src {
 
 .containercontacto form input {
     width: 50%;
-    border: 1px solid skyblue;
+    border: 1px solid black;
     background-color: #ecf6f2;
     color: #0c1225;
     padding: 12px 20px;
@@ -449,13 +449,13 @@ footer .src {
     height: 35px;
     font-size: 25px;
     font-family: 'Amatic SC', cursive;
-    border: 1px solid skyblue;
+    border: 1px solid black;
     background-color: #ecf6f2;
     margin-top: 20px;
     background-image: linear-gradient(transparent 0%,
-            transparent 90%,
-            skyblue 90%,
-            skyblue 100%);
+            transparent 97%,
+            black 90%,
+            black 100%);
 
     background-repeat: no-repeat;
     background-size: 0% 100%;
@@ -481,7 +481,7 @@ textarea {
     color: #0c1225;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 1px solid skyblue;
+    border: 1px solid black;
     border-radius: 4px;
     resize: none;
 }
