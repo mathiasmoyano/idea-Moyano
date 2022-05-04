@@ -664,7 +664,7 @@ hr {
 
     .containercontacto form input {
         width: 75%;
-        border: 1px solid skyblue;
+        border: 1px solid black;
         background-color: #ecf6f2;
         color: #0c1225;
         padding: 12px 20px;
@@ -695,7 +695,7 @@ hr {
         font-size: 25px;
         font-family: 'Amatic SC', cursive;
         margin-top: 20px;
-        border: 1px solid skyblue;
+        border: 1px solid black;
         background-color: #ecf6f2;
     }
 
@@ -706,13 +706,14 @@ hr {
         color: #0c1225;
         padding: 12px 20px;
         box-sizing: border-box;
-        border: 1px solid skyblue;
+        border: 1px solid black;
         border-radius: 4px;
         resize: none;
     }
 
     /* Fin de Contacto */
 
+    /* Inicio de footer */
     footer {
         height: 180px;
         width: 100%;
@@ -736,7 +737,7 @@ hr {
         color: white;
     }
 }
-
+    /* Fin de footer */
 @media only screen and (min-width: 559px) and (max-width: 1023px) {
 
     header nav ul {
