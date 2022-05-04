@@ -48,36 +48,35 @@
         <div class="titulos_pages">
             <h1>Contacto</h1>
         </div>
-
-        <form action="enviar.php" method="post">
-            <fieldset>
-                <legend> contacto </legend>
-                <label for="" class="label">nombre</label>
-                <input type="text" placeholder="escribe tu nombre"><br>
-                <label for="" class="label">apellido</label>
-                <input type="text" placeholder="escribe tu apellido"><br>
-                <label for="correo" class="label">correo</label>
-                <input type="mail" placeholder="escribe tu correo"><br>
-                <label for="" class="label">telefono</label>
-                <input type="number" placeholder="escribe tu telefono">
-                <p>Ingresa tu Sexo</p>
-                <input name="sexo" type="radio">
-                <label for="">hombre</label>
-                <input name="sexo" type="radio">
-                <label for="">mujer</label>
-                <input name="sexo" type="radio">
-                <label for="">no binario</label>
-                <br>
-                <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
-                <br>
-                <input type="checkbox">
-                <label for="">acepta los terminos y condiciones</label>
-                <br>
-                <br>
-                <input type="submit" value="enviar">
-                <input type="reset" value="borrar">
-            </fieldset>
-        </form>
+        <div class="containercontacto">
+            <h4>Agenda para eventos</h4>
+            <p>Te gustaria agendarte para poder tener un MFC truck en tu evento? <br>
+                Este servicio esta disponible unicamente para el mediodia en el departamento de Soriano.</p>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control" placeholder="escribe tu nombre">
+                    </div>
+                    <div class="col">
+                        <label>Apellido</label>
+                        <input type="text" class="form-control" placeholder="escribe tu apellido">
+                    </div>
+                    <div class="col">
+                        <label>Correo</label>
+                        <input type="mail" class="form-control" placeholder="escribe tu correo">
+                    </div>
+                    <div class="col">
+                        <label>Telefono</label>
+                        <input type="number" class="form-control" placeholder="escribe tu telefono">
+                    </div>
+                    <div class="col">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <i class="fa-brands fa-facebook-square"></i>

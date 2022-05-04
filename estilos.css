@@ -272,7 +272,7 @@ form {
 
 /* Inicio Footer */
 footer {
-    height: 250px;
+    height: 230px;
     width: 100%;
     background-image: url(img/Diseño\ sin\ título.jpg);
     color: #000;
@@ -380,7 +380,7 @@ footer .src {
     margin-right: 25px;
 }
 
-.Containercheff p {
+.Containercheff p{
     margin: 10px 10px 10px 10px;
 }
 
@@ -399,18 +399,62 @@ footer .src {
     margin-right: 25px;
 }
 
-.Containerlocal p {
+.Containerlocal p{
     margin: 10px 10px 10px 10px;
 }
 
 /* Fin About As*/
+
+/* Inicio Contacto */
+
+.containercontacto{
+    width: 100%;
+    height: 650px;
+    margin-top: 30px;
+}
+
+.containercontacto form{
+    width: 700px;
+    height: 450px;
+    display: inline;
+}
+
+.containercontacto form input{
+    width: 70%;
+    border: 1px solid skyblue;
+    background-color: #ecf6f2;
+    color: #0c1225;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.containercontacto p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    width: 70%;
+    height: 150px;
+    background-color: #ecf6f2;
+    color: #0c1225;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    resize: none;
+  }
+
+/* Fin de Contacto */
+
 
 /* Inicio Titulos y P, hr */
 
 h1 {
     font-size: 40px;
     font-family: 'Amatic SC', cursive;
-    /* margin-top: 15px; */
+    margin-top: 15px;
     color: #000;
     text-align: center;
     text-transform: capitalize;
@@ -433,6 +477,14 @@ h3 {
     text-align: center;
     text-transform: capitalize;
     font-weight: lighter;
+}
+
+h4{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 hr {
@@ -531,7 +583,7 @@ hr {
         height: 250px;
     }
 
-    .Containercheff p {
+    .Containercheff p{
         margin: 10px 10px 10px 10px;
     }
 
@@ -546,10 +598,10 @@ hr {
     .Containerlocal img {
         margin: auto;
         width: 350px;
-        height: 300px;
+        height: 350px;
     }
 
-    .Containerlocal p {
+    .Containerlocal p{
         margin: 10px 10px 10px 10px;
     }
 
