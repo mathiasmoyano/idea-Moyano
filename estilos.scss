@@ -252,8 +252,11 @@ footer {
     padding-top: 30px;
         a{
             color: $color2;
+            text-shadow: 0 0 0px;
+            transition: 0.3s ease;
             &:hover{
                 color: $color2;
+                text-shadow: 0 0 10px;
             }
         }
         p {
