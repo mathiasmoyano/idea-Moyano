@@ -1,8 +1,8 @@
 @charset "UTF-8";
-@media only screen and (min-width: 319px) and (max-width: 560px) {
+@media only screen and (max-width: 560px) {
   .container_img_promociones {
     width: 100%;
-    height: 1250px;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18,8 +18,10 @@
             align-items: center;
   }
   .container_img_promociones .card {
-    width: 250px;
+    width: 350px;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -250,19 +252,49 @@
   }
 }
 
-@media only screen and (min-width: 559px) and (max-width: 1023px) {
-  header nav ul {
-    display: none;
-  }
+@media only screen and (min-width: 561px) and (max-width: 1023px) {
   .container_img_promociones {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container_img_promociones .card {
+    width: 400px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  header nav ul {
+    display: none;
+  }
+  #hamburger-icon div {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
   }
 }
 
-@media only screen and (min-width: 1023px) and (max-width: 1459px) {
+@media only screen and (min-width: 1024px) and (max-width: 1459px) {
   #hamburger-icon {
     display: none;
   }
