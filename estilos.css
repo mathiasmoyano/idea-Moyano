@@ -315,6 +315,7 @@ footer {
 }
 
 footer a {
+  font-size: 35px;
   color: black;
   text-shadow: 0 0 0px;
   -webkit-transition: 0.3s ease;
