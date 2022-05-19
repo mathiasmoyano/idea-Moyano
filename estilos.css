@@ -932,6 +932,104 @@ hr {
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
+  .Container1 {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .Container1 img {
+    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .Container1 p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
+  .Container2 {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .Container2 img {
+    border-radius: 15px;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .Container2 p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
+  .Containercheff {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Containercheff img {
+    margin: auto;
+    width: 350px;
+    height: 250px;
+  }
+  .Containercheff p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
+  .Containerlocal {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Containerlocal img {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+  }
+  .Containerlocal p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1459px) {

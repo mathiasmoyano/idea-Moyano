@@ -271,7 +271,85 @@
         margin: 6px 0;
         transition: 0.4s;
     }
+// News
+.Container1{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+        img{
+            border-radius: 15px;
+            width: 350px;
+            height: 350px;
+            margin: auto;
+            margin-top: 15px;
+        }
+        p{
+            text-align: center;
+            margin: 10px 10px 10px 10px;
+        }
+}
+.Container2{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+        img{
+            border-radius: 15px;
+            width: 350px;
+            height: 350px;
+            margin: auto;
+            margin-top: 15px;
+        }
+        p{
+            text-align: center;
+            margin: 10px 10px 10px 10px;
+        }
+}
+// inicio about us
+.Containercheff {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.Containercheff img {
+    margin: auto;
+    width: 350px;
+    height: 250px;
+}
+
+.Containercheff p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.Containerlocal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Containerlocal img {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+}
+
+.Containerlocal p {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+// fin about us
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1459px) {
